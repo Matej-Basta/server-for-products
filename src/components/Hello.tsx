@@ -1,0 +1,1 @@
+export default () => ( <div> Hello from mf1 </div> );
