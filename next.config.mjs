@@ -15,7 +15,10 @@ const nextConfig = {
            './PAGES': "./src/components/Hello.tsx",
         },
         remotes: {},
-        shared: {},
+        shared: {
+          react: { singleton: true, requiredVersion: false },
+          "react-dom": { singleton: true, requiredVersion: false },
+        },
         extraOptions: {
           automaticAsyncBoundary: true,
         },
