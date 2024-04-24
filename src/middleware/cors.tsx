@@ -4,7 +4,7 @@ import { NextApiResponse } from 'next';
 // Initialize the Cors middleware
 const cors = Cors({
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
-  origin: 'https://thesis-csr.vercel.app', 
+  origin: 'https://thesis-74w3zz13v-matejbastas-projects.vercel.app', 
 });
 
 // Helper function to handle CORS
