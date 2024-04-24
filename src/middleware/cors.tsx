@@ -8,7 +8,7 @@ const cors = Cors({
 });
 
 // Helper function to handle CORS
-export default function handleCors(req, res: NextApiResponse) {
+export default function handleCors(req: any, res: NextApiResponse) {
   return new Promise((resolve, reject) => {
     cors(req, res, (result) => {
       if (result instanceof Error) {
